@@ -8,8 +8,8 @@
  * main- starting point
  *
  * Return: (0) Almost everytime
- * 
- * */
+ *
+ **/
 
 int main(void)
 {
