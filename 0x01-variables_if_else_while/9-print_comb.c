@@ -9,13 +9,12 @@
 
 int main(void)
 {
-	char num = '/';
 	int i;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (i = 48 ; i < 58 ; i++)
 	{
-		putchar(++num);
-		if (num != '9')
+		putchar((char)i);
+		if (i != 57)
 		{
 			putchar(',');
 			putchar(' ');
