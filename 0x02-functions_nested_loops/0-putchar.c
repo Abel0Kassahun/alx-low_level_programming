@@ -14,7 +14,7 @@ int main(void)
 }
 #include "main.h"
 /**
- * print__putchar - prints _putchar 
+ * print__putchar - prints _putchar
  *
  * Return: void
  *
