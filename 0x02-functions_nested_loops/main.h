@@ -10,3 +10,4 @@ void print__putchar (void)
 	printf("_putchar\n");
 }
 void print_alphabet(void);
+void print_alphabet_x10(void);

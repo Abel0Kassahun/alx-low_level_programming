@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include "_putchar.c"
+#include "../../_putchar.c/_putchar.c"
 /**
  * main- starting point
  *
