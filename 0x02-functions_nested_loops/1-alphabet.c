@@ -1,18 +1,13 @@
 #include <stdio.h>
 #include "main.h"
-#include "../../_putchar.c/_putchar.c"
+
 /**
- * main- starting point
+ * print_alphabet - prints all alphabets
  *
- * Return: (0) Almost everytime
+ * Return: void
  *
  **/
 
-int main(void)
-{
-        print_alphabet();
-        return (0);
-}
 void print_alphabet(void)
 {
 	char c = 'a';

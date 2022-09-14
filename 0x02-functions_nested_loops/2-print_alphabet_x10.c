@@ -2,9 +2,9 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main- starting point
+ * print_alphabet_x10 - prints alphabets three times
  *
- * Return: (0) Almost everytime
+ * Return: void
  *
  **/
 
@@ -14,7 +14,7 @@ void print_alphabet_x10(void)
 	int i;
 	int j;
 
-	for(i = 0 ; i < 10 ;i++)
+	for (i = 0 ; i < 10 ; i++)
 	{
 		c = 'a';
 		for (j = 0 ; j < 26 ; j++)
