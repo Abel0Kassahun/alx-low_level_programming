@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include "_putchar.c"
+#include <unistd.h>
 /**
  * main- starting point
  *
@@ -29,4 +29,8 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
+}
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
