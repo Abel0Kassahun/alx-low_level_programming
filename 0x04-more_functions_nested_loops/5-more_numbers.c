@@ -12,6 +12,7 @@ void more_numbers(void)
 {
 	int i;
 	int j;
+	char num[] = {'1', '0', '1', '1', '1', '2', '1', '3', '1', '4', '\0'};
 
 	for (i = 0 ; i < 10 ; i++)
 	{
@@ -19,10 +20,9 @@ void more_numbers(void)
 		{
 			_putchar(j);
 		}
-		for (j = 48 ; j < 53 ; j++)
+		for (j = 0 ; j < 10 ; j++)
 		{
-			_putchar(49);
-			_putchar(j);
+			_putchar(num[j]);
 		}
 		_putchar('\n');
 	}
