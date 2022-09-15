@@ -3,7 +3,7 @@
 #include <unistd.h>
 /**
  * _islower - checks if a charachter is lowercase or uppercase
- * 
+ *
  * @c: takes an ASCII value or just a character
  *
  * Return: (1) if the character is lowercase
@@ -17,6 +17,4 @@ int _islower(int c)
 		return (1);
 	else if (c >= 65 && c <= 90)
 		return (0);
-	else
-		return (-1);
 }
