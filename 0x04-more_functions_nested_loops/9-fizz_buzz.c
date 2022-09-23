@@ -1,35 +1,38 @@
 #include <stdio.h>
 
 /**
- * main - starting point
- *
+ * main - check the code
  * Return: void
- *
- **/
-
+ */
 int main(void)
 {
-	int i;
+	int i = 1;
 
-	for (i = 1 ; i < 101 ; i++)
+	while (i <= 100)
 	{
-		if ((i % 3 == 0) && (i % 5 == 0))
+		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%i", i);
 		}
+		if (i != 100)
+		{
+			putchar(' ');
+		}
+		i++;
 	}
-	printf("%c", '\n');
+	putchar('\n');
+
 	return (0);
 }
